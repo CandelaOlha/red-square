@@ -39,6 +39,7 @@ header {
 /* Navbar styles */
 
 .navbar {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin-bottom: 200px;
