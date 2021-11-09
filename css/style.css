@@ -51,6 +51,7 @@ header {
 }
 
 .navbar-link {
+  align-items: center;
   display: flex;
   font-size: 18px;
   text-decoration: none;
@@ -184,6 +185,7 @@ header {
 
 .footer-section-container {
   background-image: url("../images/footer-background.jpg");
+  background-position: center;
   display: flex;
   justify-content: space-between;
   max-width: 1230px;
@@ -215,6 +217,9 @@ header {
   }
   .icons-and-venues-container {
     align-items: stretch;
+  }
+  .social-media-item {
+    margin: 10px 20px 10px 0;
   }
   .venue {
     margin: 20px 20px 0 0;
