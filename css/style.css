@@ -92,6 +92,7 @@ header {
 
 .clients-section-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -99,10 +100,12 @@ header {
   color: #858585;
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 60px;
 }
 
 .client-list-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .client-list-one {
@@ -116,8 +119,9 @@ header {
 .client-name {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.8;
   list-style-type: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* Contact section styles */
@@ -125,6 +129,7 @@ header {
 .contact-section-container {
   align-items: flex-end;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -196,4 +201,60 @@ header {
 
 .footer-link-text {
   margin-right: 10px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 830px) {
+  .contact-section-container {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .email-container {
+    margin-bottom: 20px;
+  }
+  .icons-and-venues-container {
+    align-items: stretch;
+  }
+  .venue {
+    margin: 20px 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .main-title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .client-list-two {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .main-title {
+    font-size: 60px;
+  }
+  .about-main-text {
+    font-size: 30px;
+    line-height: 1.6;
+  }
+  .about-description {
+    font-size: 20px;
+    line-height: 2;
+  }
+  .client-name {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .email-container {
+    font-size: 40px;
+  }
+  .footer-section-container {
+    padding: 30px 40px;
+  }
 }
