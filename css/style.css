@@ -1,3 +1,7 @@
+html {
+  background-color: #111111;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
@@ -16,6 +20,12 @@
 .section-container {
   max-width: 1024px;
   width: 100%;
+}
+
+/* Fonts color */
+
+.text {
+  color: #fefefe;
 }
 
 /* Header styles */
@@ -144,6 +154,7 @@ header {
 }
 
 .social-media-item i {
+  color: #fefefe;
   font-size: 20px;
 }
 
@@ -175,7 +186,6 @@ header {
 }
 
 .footer-section-container a {
-  color: #fefefe;
   font-size: 20px;
   text-decoration: none;
 }
