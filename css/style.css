@@ -56,6 +56,11 @@ header {
   text-decoration: none;
 }
 
+.navbar-link:hover {
+  transform: translateX(5px);
+  transition-duration: 0.2s;
+}
+
 .navbar-link-text {
   margin-right: 10px;
 }
@@ -158,15 +163,28 @@ header {
   margin: 10px;
 }
 
+.social-media-item:hover {
+  cursor: pointer;
+}
+
 .social-media-item i {
   color: #fefefe;
   font-size: 20px;
+}
+
+.social-media-item i:hover {
+  color: #858585;
+  transition-duration: 0.2s;
 }
 
 .social-media-item span {
   font-family: "Libre Baskerville", serif;
   font-size: 20px;
   font-weight: 500;
+}
+
+.social-media-item span:hover {
+  color: #858585;
 }
 
 .venues-list {
@@ -189,6 +207,12 @@ header {
   justify-content: space-between;
   max-width: 1230px;
   padding: 30px 60px;
+}
+
+.footer-section-container:hover {
+  cursor: pointer;
+  padding: 40px 60px;
+  transition-duration: 0.2s;
 }
 
 .footer-section-container a {
