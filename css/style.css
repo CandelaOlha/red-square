@@ -77,3 +77,35 @@ header {
   font-size: 30px;
   line-height: 1.8;
 }
+
+/* Clients section styles */
+
+.clients-section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-section-title {
+  color: #858585;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.client-list-container {
+  display: flex;
+}
+
+.client-list-one {
+  margin-right: 40px;
+}
+
+.client-list-two {
+  margin-left: 40px;
+}
+
+.client-name {
+  font-size: 20px;
+  font-weight: 500;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
