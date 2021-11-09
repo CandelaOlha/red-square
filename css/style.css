@@ -52,7 +52,7 @@ header {
 
 .main-title {
   font-family: "Libre Baskerville", serif;
-  font-size: 96px;
+  font-size: 100px;
   line-height: 1.1;
 }
 
@@ -63,4 +63,17 @@ header {
 
 .main-image {
   max-width: 100%;
+}
+
+/* About section styles */
+
+.about-main-text {
+  font-size: 50px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+.about-description {
+  font-size: 30px;
+  line-height: 1.8;
 }
