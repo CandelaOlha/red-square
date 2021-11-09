@@ -109,3 +109,57 @@ header {
   list-style-type: none;
   margin-bottom: 30px;
 }
+
+/* Contact section styles */
+
+.contact-section-container {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-container {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.email-link {
+  color: #e31e3c;
+  text-decoration: none;
+}
+
+.icons-and-venues-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.social-media-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.social-media-item i {
+  font-size: 20px;
+}
+
+.social-media-item span {
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.venues-list {
+  display: flex;
+}
+
+.venue {
+  color: #858585;
+  font-weight: 500;
+  list-style-type: none;
+  margin: 20px 20px 0 20px;
+}
