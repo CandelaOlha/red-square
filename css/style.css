@@ -51,7 +51,6 @@ header {
 }
 
 .navbar-link {
-  align-items: center;
   display: flex;
   font-size: 18px;
   text-decoration: none;
