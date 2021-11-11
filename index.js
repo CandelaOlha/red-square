@@ -3,10 +3,12 @@ const sunIcon = document.querySelector(".fa-sun");
 const moonIcon = document.querySelector(".fa-moon");
 const body = document.querySelector("body");
 const text = document.querySelector(".text");
+const icon = document.querySelector(".icon");
 
 sunIcon.onclick = () => {
     body.classList.add("light-mode");
     text.classList.add("light-mode");
+    icon.classList.add("light-mode");
     modeConverterButton.style.backgroundColor = "#ededed";
     sunIcon.style.color = "#858585";
     moonIcon.style.color = "#858585";
