@@ -149,10 +149,17 @@ header {
   text-decoration: none;
 }
 
-.icons-and-venues-container {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
+.email-link:after {
+  background-color: #e31e3c;
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  transition: 0.2s;
+}
+
+.email-link:hover:after {
+  width: 100%;
 }
 
 .social-media-icons {
