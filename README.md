@@ -20,6 +20,7 @@ Also, even though it was not included in the original project, I decided to add 
 - [Google Fonts](https://fonts.google.com/) for typography
 - [Unsplash](https://unsplash.com/) for images
 - [Font awesome](https://fontawesome.com/) for icons
+- [Animate.css](https://animate.style/) and [Wow.js](https://wowjs.uk/) for animations
 
 Check it out!
 
