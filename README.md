@@ -23,4 +23,4 @@ Also, even though it was not included in the original project, I decided to add 
 
 Check it out!
 
-[https://candelaolha.github.io/red-square/] (https://candelaolha.github.io/red-square/)
+[https://candelaolha.github.io/red-square/](https://candelaolha.github.io/red-square/)
