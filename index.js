@@ -5,19 +5,13 @@ const body = document.querySelector("body");
 const text = document.querySelector(".text");
 const icon = document.querySelector(".icon");
 
-sunIcon.onclick = () => {
-    body.classList.add("light-mode");
-    text.classList.add("light-mode");
-    icon.classList.add("light-mode");
-    modeConverterButton.style.backgroundColor = "#ededed";
-    sunIcon.style.color = "#858585";
-    moonIcon.style.color = "#858585";
-}
-
-moonIcon.onclick = () => {
-    body.classList.remove("light-mode");
-    text.classList.remove("light-mode");
-    modeConverterButton.style.backgroundColor = "#343434";
-    sunIcon.style.color = "#fefefe";
-    moonIcon.style.color = "#fefefe";
+modeConverterButton.onclick = () => {
+    modeConverterButton.classList.toggle("light-mode");
+    sunIcon.classList.toggle("is-hidden");
+    moonIcon.classList.toggle("is-hidden");
+    sunIcon.classList.toggle("light-mode");
+    moonIcon.classList.toggle("light-mode");
+    body.classList.toggle("light-mode");
+    text.classList.toggle("light-mode");
+    icon.classList.toggle("light-mode");
 }
