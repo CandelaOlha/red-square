@@ -74,9 +74,11 @@ header {
 }
 
 .mode-converter {
+  align-items: center;
   background-color: #343434;
   border: 0;
   border-radius: 2px;
+  display: flex;
   padding: 10px;
 }
 
