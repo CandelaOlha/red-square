@@ -12,8 +12,8 @@ Furthermore, I took advantage of Local Storage to save user color preferences so
 
 ## Technologies
 
-- HTML 5
-- CSS 3
+- HTML5
+- CSS3
 - Javascript
 
 ## Design resources
