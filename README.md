@@ -6,7 +6,7 @@ This is a project I chose from [frontendpractice.com](https://www.frontendpracti
 
 By recreating this website I learned about minimal design, scroll animations and hover effects.
 
-Even though it was not included in the original project, I decided to add a dark mode switch to give the user more control over the interface layout.
+Also, even though it was not included in the original project, I added a dark mode switch to give the user more control over the interface layout.
 
 Furthermore, I took advantage of local storage to save user color preferences so that the next time the page loads, the screen is displayed in the previously selected mode.
 
